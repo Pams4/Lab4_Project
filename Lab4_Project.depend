@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1620422554 source:c:\users\pam's cype\documents\ab_intermidiate_programming\lab4_project\main.cpp
+	<iostream>
+	<iterator>
+	<fstream>
+	<vector>
+	<cmath>
+

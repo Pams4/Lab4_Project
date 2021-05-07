@@ -1,0 +1,27 @@
+WoodenBlock: Header.h RectBlocks.o SqrBaseRectBlocks.o CuboidBlocks.o CylindricalBlocks.o SphericalBlock.o
+	g++ -std=c++11 -o WoodenBlock RectBlocks.o SqrBaseRectBlocks.o CuboidBlocks.o CylindricalBlocks.o SphericalBlock.o WoodenBlock.o -I.
+
+
+RectBlocks.o : Header.h RectBlocks.cpp
+g++ -std=c++11 -o RectBlocks.cpp -I.
+
+SqrBaseRectBlocks.o: Header.h SqrBaseRectBlocks.cpp
+g++ -std=c++11 -o SqrBaseRectBlocks.cpp -I.
+
+CuboidBlocks.o: Header.h CuboidBlocks.cpp
+g++ -std=c++11 -o CuboidBlocks.cpp -I.
+
+CylindricalBlocks.o: Header.h CylindricalBlocks.CPP
+g++ -std=c++11 -o CylindricalBlocks.cpp -I.
+
+SphericalBlock.o: Header.h SphericalBlock.cpp
+g++ -std=c++11 -o SphericalBlock.cpp -I.
+
+WoodenBlock.o: Header.h WoodenBlock.cpp
+g++ -std=c++11 -o WoodenBlock.cpp -I.
+
+
+
+
+
+
